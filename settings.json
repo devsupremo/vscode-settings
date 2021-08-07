@@ -1,0 +1,59 @@
+{
+  // "window.zoomLevel": 0,
+  //tema do vscode
+  "workbench.colorTheme": "2077",
+  "workbench.iconTheme": "material-icon-theme",
+
+  //fonte do vscode
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 12,
+  "editor.lineHeight": 20,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.rulers": [80, 120],
+  "editor.renderLineHighlight": "gutter",
+  "terminal.integrated.fontSize": 12,
+
+  "explorer.compactFolders": false,
+  "workbench.editor.labelFormat": "short",
+
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+  //eslint
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[javascriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": false,
+  "prettier.eslintIntegration": true,
+  "git.ignoreWindowsGit27Warning": true,
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "workbench.startupEditor": "none"
+}
